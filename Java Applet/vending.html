@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Soda Machine Applet</title>
+	</head>
+
+<body>
+	<h1>Soda Machine applet</h1>
+<!--"CONVERTED_APPLET"-->
+<!-- HTML CONVERTER -->
+<object
+    classid = "clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
+    codebase = "http://java.sun.com/update/1.6.0/jinstall-6u10-windows-i586.cab#Version=6,0,0,28"
+    WIDTH = 300 HEIGHT = 300 >
+    <PARAM NAME = CODE VALUE = "SodaVendor.SodaVendor.class" >
+    <PARAM NAME = ARCHIVE VALUE = "SodaVendor.jar" >
+    <param name = "type" value = "application/x-java-applet;version=1.6">
+    <param name = "scriptable" value = "false">
+
+    <comment>
+	<embed
+            type = "application/x-java-applet;version=1.6" \
+            CODE = "SodaVendor.SodaVendor.class" \
+            ARCHIVE = "SodaVendor.jar" \
+            WIDTH = 300 \
+            HEIGHT = 300
+	    scriptable = false
+	    pluginspage = "http://java.sun.com/products/plugin/index.html#download">
+	    <noembed>
+            <p>This applet requires version 1.6 or later of Java.</p>
+            </noembed>
+	</embed>
+    </comment>
+</object>
+
+<!--
+<APPLET CODE = "SodaVendor.SodaVendor.class" ARCHIVE = "SodaVendor.jar" WIDTH = 300 HEIGHT = 300>
+<p>This applet requires version 1.6 or later of Java.</p>
+
+</APPLET>
+-->
+<!--"END_CONVERTED_APPLET"-->
+
+<p>What this applet does is simulate a soda vending machine.  Use the dollar and quarter keys to insert money into the machine.<br>
+Each soda cost $1.00, and there's only 10 of each type, after which the selection is no longer selectable.  Refund gives you your money back and resets the amount entered to 0.
+</p>
+</body>	
+</html>
