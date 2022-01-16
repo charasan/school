@@ -1,0 +1,12 @@
+# Output file for Project 3 - Eddie Fuller
+A is a packed palindrome.
+ABC is NOT a packed palindrome.
+ABA is a packed palindrome.
+ABBA is a packed palindrome.
+RACECAR is a packed palindrome.
+A?B+C is NOT a packed palindrome.
+A MAN, A PLAN, A CANAL - PANAMA is a packed palindrome.
+STRAW? NO TOO STUPID, I PUT SOOT ON WARTS. is a packed palindrome.
+tattarrattat is a packed palindrome.
+I AM NOT A PALINDROME is NOT a packed palindrome.
+I PALINDROME I is NOT a packed palindrome.

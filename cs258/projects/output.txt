@@ -1,0 +1,11 @@
+a+b): BAD String
+)a+b(: BAD String
+((a-b): BAD String
+[a-b)*(c-d): BAD String
+{c-d]*f: BAD String
+(((((a))))): GOOD String
+{[(a-b)*(c-d)+f]*e-g}*h: GOOD String
+(a+b): GOOD String
+{[(a])}: BAD String
+{[(a-b)]}: GOOD String
+{{[[((a))]]}}: GOOD String
